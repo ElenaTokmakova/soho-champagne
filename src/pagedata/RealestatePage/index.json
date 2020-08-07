@@ -1,0 +1,655 @@
+{
+    "Header":
+    {
+        "BrandLogo":"../realestate-images/logo-text-white.png",
+        "BrandLogoSticky":"../realestate-images/logo-text-black.png",
+        "Items":["homeSection","propertiesSection","aboutSection","amenitiesSection","testimonialsSection","footerSection"],
+        "MenuItems":[
+            {
+                "Menu":"Home",
+                "Href":"#homeSection"
+            },
+            {
+                "Menu":"Properties",
+                "Href":"#propertiesSection"
+            },
+            {
+                "Menu":"About",
+                "Href":"#aboutSection"
+            },
+            {
+                "Menu":"Amenities",
+                "Href":"#amenitiesSection"
+            },
+            {
+                "Menu":"Testimonials",
+                "Href":"#testimonialsSection"
+            },
+            {
+                "Menu":"Contact",
+                "Href":"#footerSection"
+            }
+        ]
+    },
+    "StickyMenu":{
+        "Bullet":"../realestate-images/bullet.svg",
+        "SelectedBullet":"../realestate-images/selected-bullet.svg",
+        "Items":["homeSection","featuresSection","propertiesSection","aboutSection","amenitiesSection","gallerySection","neighbourhoodsSection","testimonialsSection","footerSection"],
+        "MenuItems":[
+                {
+                    "Href":"#homeSection"
+                },
+                {
+                    "Href":"#featuresSection"
+                },
+                {
+                    "Href":"#propertiesSection"
+                },
+                {
+                    "Href":"#aboutSection"
+                },
+                {
+                    "Href":"#amenitiesSection"
+                },
+                {
+                    "Href":"#gallerySection"
+                },
+                {
+                    "Href":"#neighbourhoodsSection"
+                },
+                {
+                    "Href":"#testimonialsSection"
+                },
+                {
+                    "Href":"#footerSection"
+                }
+        ]
+    },
+    "Banner":
+    {
+        "BannerSlides":[
+            {
+                "BannerImage":"../../assets/realestate-images/banner-1_slider.jpg",
+                "BannerHeading":"Modern House Make Better Life",
+                "BannerSubHeading":"Welcome to Modern Villas",
+                "WatchVideoAnchor":"Walkthrough Video"
+            },
+            {
+                "BannerImage":"../../assets/realestate-images/banner-2_slider.jpg",
+                "BannerHeading":"Remarkable Value Unbeatable Location",
+                "BannerSubHeading":"Welcome to Modern Villas",
+                "WatchVideoAnchor":"Walkthrough Video"
+            }
+        ],
+        "PrevImg":"../realestate-images/left-slider.svg",
+        "NextImg":"../realestate-images/right-slider.svg"
+    },
+    "Features":
+    {
+        "SmallHeading":"Our Modern Villa",
+        "Heading":"Property Features",
+        "FeaturesWrapper":[
+            {
+                "FeaturesCardIcon":"../realestate-images/quality-construction.svg",
+                "FeaturesCardHeading":"Quality Construction",
+                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"
+            },
+            {
+                "FeaturesCardIcon":"../realestate-images/best-amenities.svg",
+                "FeaturesCardHeading":"Best Amenities",
+                "FeaturesCardPara":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at it"
+            },
+            {
+                "FeaturesCardIcon":"../realestate-images/buyers-trust.svg",
+                "FeaturesCardHeading":"Buyers Trust",
+                "FeaturesCardPara":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
+            }
+        ]
+    },
+    "Properties":{
+        "SmallHeading":"Our Best Villa",
+        "Heading":"Property Description",
+        "TabList":[
+            {
+                "Tab":"2 Bedroom",
+                "TabPanel":[
+                    {
+                        "Img":"../../assets/realestate-images/property-4.png",
+                        "TabHeading":"2 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"1218 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"2 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"1 Balcony"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "Img":"../../assets/realestate-images/property-3.png",
+                        "TabHeading":"2 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"1320 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"2 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"1 Balcony"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "Img":"../../assets/realestate-images/property-2.png",
+                        "TabHeading":"2 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"1410 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"2 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"1 Balcony"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "Img":"../../assets/realestate-images/property-1.png",
+                        "TabHeading":"2 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"1480 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"2 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"1 Balcony"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Tab":"3 Bedroom",
+                "TabPanel":[
+                    {
+                        "Img":"../../assets/realestate-images/property-2.png",
+                        "TabHeading":"3 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"1528 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"3 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"1 Balcony"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "Img":"../../assets/realestate-images/property-1.png",
+                        "TabHeading":"3 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"1650 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"3 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"1 Balcony"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "Img":"../../assets/realestate-images/property-3.png",
+                        "TabHeading":"3 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"1800 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"3 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"1 Balcony"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "Img":"../../assets/realestate-images/property-4.png",
+                        "TabHeading":"3 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"1880 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"3 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"1 Balcony"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "Tab":"4 Bedroom",
+                "TabPanel":[
+                    {
+                        "Img":"../../assets/realestate-images/property-2.png",
+                        "TabHeading":"4 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"2118 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"4 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"2 Balconies"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "Img":"../../assets/realestate-images/property-3.png",
+                        "TabHeading":"4 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"2300 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"4 Bed Rooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"2 Balconies"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "Img":"../../assets/realestate-images/property-1.png",
+                        "TabHeading":"4 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"2400 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"4 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"2 Balconies"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "Img":"../../assets/realestate-images/property-4.png",
+                        "TabHeading":"4 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"2580 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"4 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"2 Balconies"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    },
+                    {
+                        "Img":"../../assets/realestate-images/property-3.png",
+                        "TabHeading":"4 Bedroom",
+                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
+                        "SizeText":"2800 Square feet",
+                        "SpecLayout":[
+                            {
+                                "SpecIcon":"../realestate-images/bed.svg",
+                                "SpecText":"4 Bedrooms"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/balcony.svg",
+                                "SpecText":"2 Balconies"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/garage.svg",
+                                "SpecText":"1 Garage"
+                            },
+                            {
+                                "SpecIcon":"../realestate-images/bathtub.svg",
+                                "SpecText":"2 Bathrooms"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "PrevImg":"../realestate-1-images/left-arrow.svg",
+        "NextImg":"../realestate-1-images/right-arrow.svg"
+    },
+    "About":{
+        "SmallHeading":"Know More",
+        "Heading":"About The Property",
+        "Description1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
+        "Description2":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search",
+        "Img":"../../assets/realestate-images/about-image.jpg"
+    },
+    "Amenities":{
+        "SmallHeading":"Facilities",
+        "Heading":"Amenities",
+        "AmenitiesData":[
+            {
+                "Img":"../realestate-images/garden.svg",
+                "AmenitiesText":"Garden"
+            },
+            {
+                "Img":"../realestate-images/multi-purpose-hall.svg",
+                "AmenitiesText":"Hall"
+            },
+            {
+                "Img":"../realestate-images/gymnastic.svg",
+                "AmenitiesText":"Gymnastic"
+            },
+            {
+                "Img":"../realestate-images/cctv.svg",
+                "AmenitiesText":"CCTV"
+            },
+            {
+                "Img":"../realestate-images/tennis-court.svg",
+                "AmenitiesText":"Tennis Court"
+            },
+            {
+                "Img":"../realestate-images/basket-ball-court.svg",
+                "AmenitiesText":"Basket Ball Court"
+            },
+            {
+                "Img":"../realestate-images/swimming-pool.svg",
+                "AmenitiesText":"Swimming Pool"
+            },
+            {
+                "Img":"../realestate-images/library.svg",
+                "AmenitiesText":"Library"
+            }
+        ]
+    },
+    "Gallery":{
+        "SmallHeading":"Photoshoot",
+        "Heading":"Our Gallery",
+        "PrevImg":"../realestate-images/left-slider.svg",
+        "NextImg":"../realestate-images/right-slider.svg",
+        "Slider":[
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-1.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-2.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-3.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-4.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-5.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-6.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-7.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-8.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-9.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-10.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-11.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-12.jpg"
+            }
+        ]
+    },
+    "Neighbourhoods":{
+        "SmallHeading":"Our Property",
+        "Heading":"Neighbourhoods",
+        "Img":"../../assets/realestate-images/neighborhood-image.jpg",
+        "AccordianCustom":[
+            {
+                "title":"Shopping Mall",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+            },
+            {
+                "title":"Kids School",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+            },
+            {
+                "title":"Metro Station",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+            },
+            {
+                "title":"Super Market",
+                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+            },
+            {
+                "title":"George Health Care",
+                "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock"
+            },
+            {
+                "title":"Restaurant",
+                "description":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words"
+            },
+            {
+                "title":"Car Showroom",
+                "description":"It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
+            },
+            {
+                "title":"Counselor Office",
+                "description":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet"
+            }
+        ]
+    },
+    "Testimonials":{
+        "SmallHeading":"Testimonials",
+        "Heading":"What Our Clients say?",
+        "TestimonialCards":[
+            {
+                "Img":"../../assets/realestate-images/testimonial-1.jpg",
+                "TestimonialText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
+                "Author":"Mohammed Hayaz",
+                "Designation":"Team Lead"
+            },
+            {
+                "Img":"../../assets/realestate-images/testimonial-2.jpg",
+                "TestimonialText":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
+                "Author":"Paul John",
+                "Designation":"Managing Director"
+            },
+            {
+                "Img":"../../assets/realestate-images/testimonial-3.jpg",
+                "TestimonialText":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia",
+                "Author":"Jonathan Stat",
+                "Designation":"Operation Manager"
+            },
+            {
+                "Img":"../../assets/realestate-images/testimonial-4.jpg",
+                "TestimonialText":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a",
+                "Author":"Smith Robert",
+                "Designation":"Founer and CEO"
+            }
+        ]
+    },
+    "Footer":
+    {
+        "SmallHeading":"Contact Us",
+        "Heading":"Get in Touch",
+        "ContactButtonText":"Send Message",
+        "DetailsData":[
+            {
+                "DetailsIcon":"../realestate-images/address.svg",
+                "DetailsText":"3424 Ugoa street Smiths Lake NSW 6274, Australia"
+            },
+            {
+                "DetailsIcon":"../realestate-images/call.svg",
+                "DetailsText":"+ (67) 1534 9780"
+            },
+            {
+                "DetailsIcon":"../realestate-images/mail.svg",
+                "DetailsText":"hello@reactrepo.com"
+            }
+        ],
+        "FooterUl":[
+            {
+                "Menu":"Home",
+                "Href":"#homeSection"
+            },
+            {
+                "Menu":"Features",
+                "Href":"#featuresSection"
+            },
+            {
+                "Menu":"About",
+                "Href":"#aboutSection"
+            },
+            {
+                "Menu":"Gallery",
+                "Href":"#gallerySection"
+            },
+            {
+                "Menu":"Team",
+                "Href":"#teamSection"
+            },
+            {
+                "Menu":"Testimonials",
+                "Href":"#testimonialsSection"
+            },
+            {
+                "Menu":"Contact",
+                "Href":"#footerSection"
+            }
+        ],
+        "BottomFooterPara":" © Copyright by: ",
+        "BottomFooterName":"Reactrepo",
+        "BottomFooterLink":"https://www.reactrepo.com"
+    }
+}
