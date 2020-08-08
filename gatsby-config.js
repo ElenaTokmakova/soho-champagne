@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Topaz`,
-    description: `New generation landing pages built with ReactJS, GatsbyJS and Styled Components`,
-    author: `Suhas Holla <suhas@rapidmind.in>`,
+    title: `Soho Champagne`,
+    description: `This 16th floor premium 1 bedroom unit in SOHO Champagne hotel-inspired condo offers the best in Ottawa's urban lifestyle. The unit features a range of luxury components, such as full hardwood floors, 9 feet ceilings, and Gluckstein Design kitchen with white quartz countertops, glass tile backsplash and integrated appliances (AEG Wall Oven, AEG Dishwasher, Fridge, Cook top, Panasonic Microwave, Bosch Washer and Dryer). The 3-piece bathroom includes polished marble tile and a walk-in shower...`,
+    author: ``,
   },
   plugins: [
     {
@@ -29,28 +29,28 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    { 
-        resolve: `gatsby-source-filesystem`, 
+    {
+        resolve: `gatsby-source-filesystem`,
         options: { path: `./static/` }
     },
-    { 
-        resolve: `gatsby-source-filesystem`, 
+    {
+        resolve: `gatsby-source-filesystem`,
         options: { path: `./src/assets/` }
     },
     {
         resolve: `gatsby-plugin-manifest`,
         options: {
-        name: `Topaz Real Estate`,
-        short_name: `Topaz`,
+        name: `Soho Champagne Unit 1608`,
+        short_name: `Soho Champagne`,
         start_url: `/`,
         background_color: `#eb3925`,
         theme_color: `#eb3925`,
         display: `minimal-ui`,
-        icon: `src/images/topaz.png`, // This path is relative to the root of the site.
+        icon: `src/images/house.png`, // This path is relative to the root of the site.
         icons: [
             {
-                src: `/favicons/topaz.png`,
-                sizes: `512x512`,
+                src: `/favicons/house.png`,
+                sizes: `48x48`,
                 type: `image/png`,
             }
             ], // Add or remove icon sizes as desired
@@ -59,7 +59,7 @@ module.exports = {
     {
         resolve: `gatsby-plugin-google-analytics`,
         options: {
-            trackingId: "UA-156885111-5",
+            trackingId: "",
         },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

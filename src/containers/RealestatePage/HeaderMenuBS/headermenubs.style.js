@@ -8,7 +8,7 @@ export const NavbarCustom = styled(Navbar)`
     background: #ffffff00 !important;
     padding:0px !important;
     position:absolute;
-    
+
     @media ${device.laptop} {
         background: ${props => props.isSticky?"#ffffff":"#ffffff00"} !important;
         position:fixed;
@@ -34,14 +34,14 @@ export const NavbarCustom = styled(Navbar)`
         padding:15px 20px;
         margin: 0;
         display: inline-flex;
-    
+
         @media ${device.laptop}{
             display:block;
         }
     }
 
     .is-current a{
-        color:#f4ba10;
+        color:#bf9e3b;
     }
 
     //Anchor Link Styles
@@ -52,35 +52,11 @@ export const NavbarCustom = styled(Navbar)`
 
         :hover{
             text-decoration:none;
-            color:#ef5350;
         }
 
         @media ${device.laptop} {
             color: #494949;
         }
-    }
-
-    //Logo
-    .navbar-brand {
-        padding:10px 0px;
- 
-        @media ${device.laptop} {
-            padding:15px 0px;
-        }
-    }
-`;
-
-export const BrandLogo = styled.img`
-    margin-bottom:0px;
-    max-width:175px;
-    transition:all .5s;
-
-    @media ${device.laptop} {
-        max-width:${props => props.isSticky?"140px":"175px"};
-    }
-    
-    @media ${device.mobileM} {
-        max-width:145px;
     }
 `;
 
@@ -94,7 +70,7 @@ export const NavbarToggleCustom = styled(Navbar.Toggle)`
 
     .navbar-toggler-icon{
         background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
-        
+
         @media ${device.laptop} {
             background-image:url("${props => props.isSticky?"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(0, 0, 0, 0.5)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e":"data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba(255, 255, 255, 0.9)' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e"}") !important;
         }

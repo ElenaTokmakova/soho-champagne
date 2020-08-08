@@ -7,12 +7,6 @@ import {BannerSection,
     BannerContentLeft,
     BannerSubHeading,
     BannerHeading,
-    WatchVideoAnchor,
-    WatchVideoLayout,
-    PlayOuterWrapper,
-    PlayWrapper,
-    PlayIcon,
-    PlayText,
     NextPrev,
     ImgButton,
     PrevImg,
@@ -60,8 +54,8 @@ class Banner extends Component {
                         this.props.BannerData.BannerSlides.map((item,idx)=>{
                             return<BannerSlide>
                                 <BannerImageHolder>
-                                    <GatsImg 
-                                        fluid={item.BannerImage.childImageSharp.fluid} 
+                                    <GatsImg
+                                        fluid={item.BannerImage.childImageSharp.fluid}
                                         alt=""
                                         className="bannerImage"
                                     />
@@ -71,19 +65,6 @@ class Banner extends Component {
                                         <BannerContentLeft>
                                             <BannerSubHeading>{item.BannerSubHeading}</BannerSubHeading>
                                             <BannerHeading>{item.BannerHeading}</BannerHeading>
-                                            <WatchVideoAnchor href="#">
-                                                <WatchVideoLayout>
-                                                    <PlayOuterWrapper>
-                                                        <PlayWrapper>
-                                                            <PlayIcon />
-                                                        </PlayWrapper>
-                                                    </PlayOuterWrapper>
-                                                    
-                                                    <PlayText>
-                                                        {item.WatchVideoAnchor}
-                                                    </PlayText>
-                                                </WatchVideoLayout>
-                                            </WatchVideoAnchor>
                                         </BannerContentLeft>
                                     </Container>
                                 </BannerContents>
@@ -122,7 +103,6 @@ export default () => (
                             }
                             BannerHeading
                             BannerSubHeading
-                            WatchVideoAnchor
                         }
                         PrevImg
                         NextImg

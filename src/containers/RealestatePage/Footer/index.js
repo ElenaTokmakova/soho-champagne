@@ -1,9 +1,5 @@
 import React,{Component}from 'react';
-import {FooterSection,SectionWrapper,HeadingLayout,SmallHeading,Heading,ContactWrapper,
-    ContactLayoutLeft,FormLayout,Form,FormGroup,InputText,ContactSpanErr,TextareaMessage,
-    TextCenter,SubmitBtn,ContactSpanSuccess,ContactLayoutRight,ContactUsLayout,DetailsLayout,DetailsIcon,
-    DetailsText,SocialLayout,FooterSocial,FbIcon,
-    TwitterIcon,LinkedinIcon,InstaIcon,BottomFooterPara,BottomLink
+import {FooterSection,SectionWrapper,HeadingLayout,SmallHeading,Heading,ContactWrapper,ContactLayoutRight,ContactUsLayout,DetailsLayout,DetailsIcon,DetailsText
 } from './footer.style';
 import {Container,Row,Col} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -112,7 +108,7 @@ class Footer extends Component{
         e.preventDefault();
         if(!this.validateForm())
         {
-            //SUCCESS 
+            //SUCCESS
             //TO DO
             console.log("Name: "+this.state.contact_name);
             console.log("Email: "+this.state.contact_email);
@@ -149,54 +145,13 @@ class Footer extends Component{
                             </Heading>
                         </HeadingLayout>
                         <ContactWrapper>
-                                <ContactLayoutLeft>
-                                    <FormLayout>
-                                        <Form method="post">
-                                            <Row>
-                                                <Col md="12">
-                                                    <FormGroup>
-                                                        <InputText aria-label="Name" type="text" placeholder="Name"  name="contact_name" onChange={this.handleChange} value={this.state.contact_name}/>
-                                                        <ContactSpanErr>{this.state.errors.contact_name}</ContactSpanErr>
-                                                    </FormGroup>
-                                                </Col>
-                                                <Col md="12">
-                                                    <FormGroup>
-                                                        <InputText aria-label="Email" type="email" placeholder="Email"  name="contact_email" onChange={this.handleChange} value={this.state.contact_email}/>
-                                                        <ContactSpanErr>{this.state.errors.contact_email}</ContactSpanErr>
-                                                    </FormGroup>
-                                                </Col>
-                                                <Col md="12">
-                                                    <FormGroup>
-                                                        <InputText aria-label="Mobile No" type="tel" placeholder="Mob No."  name="contact_phone" onChange={this.handleChange} value={this.state.contact_phone}/>
-                                                        <ContactSpanErr>{this.state.errors.contact_phone}</ContactSpanErr>
-                                                    </FormGroup>
-                                                </Col>
-
-                                                <Col md="12">
-                                                    <FormGroup>
-                                                        <TextareaMessage aria-label="Message" type="text" placeholder="Message" name="contact_message" onChange={this.handleChange} value={this.state.contact_message}></TextareaMessage>
-                                                        <ContactSpanErr>{this.state.errors.contact_message}</ContactSpanErr>
-                                                    </FormGroup>
-                                                </Col>
-
-                                                <Col md="12">
-                                                    <TextCenter>
-                                                        <SubmitBtn href="#" onClick={this.contactUsSubmit}>{this.props.FooterData.ContactButtonText}</SubmitBtn>
-                                                    </TextCenter>
-                                                    <ContactSpanSuccess>{this.state.success_contact_message}</ContactSpanSuccess>
-                                                </Col>
-                                            </Row>
-                                        </Form>
-                                    </FormLayout>
-                                </ContactLayoutLeft>
-
                                 <ContactLayoutRight>
                                 <Row>
                                     <Col md={12}>
-                                    <Iframe url="https://maps.google.com/maps?f=q&amp;source=s_d&amp;hl=en&amp;saddr=37.42216,-122.083737&amp;z=15&amp;output=embed"
+                                    <Iframe url="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d44815.973954558285!2d-75.72612864155553!3d45.40937240119311!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce043308bd0ab1%3A0x2802f4957a72ceb0!2sSoHo%20Champagne!5e0!3m2!1sen!2sus!4v1596829688628!5m2!1sen!2sus"
                                         title="google map"
                                         width="100%"
-                                        height="200px"
+                                        height="400px"
                                         frameBorder="0"
                                         className="myClassname"
                                         display="initial"
@@ -207,59 +162,24 @@ class Footer extends Component{
                                     <Col md={6}>
                                         <ContactUsLayout>
                                             <DetailsLayout>
-                                                <DetailsIcon src={this.props.FooterData.DetailsData[1].DetailsIcon} alt=""/>
+                                                <DetailsIcon src={this.props.FooterData.DetailsData[0].DetailsIcon} alt=""/>
                                                 <DetailsText>
-                                                {this.props.FooterData.DetailsData[1].DetailsText}
-                                                </DetailsText>
-                                            </DetailsLayout>
-                                            <DetailsLayout>
-                                                <DetailsIcon src={this.props.FooterData.DetailsData[2].DetailsIcon} alt=""/>
-                                                <DetailsText>
-                                                {this.props.FooterData.DetailsData[2].DetailsText}
+                                                {this.props.FooterData.DetailsData[0].DetailsText}
                                                 </DetailsText>
                                             </DetailsLayout>
                                         </ContactUsLayout>
                                     </Col>
                                     <Col md={6}>
-                                        <DetailsLayout>
-                                            <DetailsIcon src={this.props.FooterData.DetailsData[0].DetailsIcon} alt=""/>
-                                            <DetailsText>
-                                            {this.props.FooterData.DetailsData[0].DetailsText}
-                                            </DetailsText>
-                                        </DetailsLayout>
+                                    <DetailsLayout>
+                                        <DetailsIcon src={this.props.FooterData.DetailsData[1].DetailsIcon} alt=""/>
+                                        <DetailsText>
+                                        {this.props.FooterData.DetailsData[1].DetailsText}
+                                        </DetailsText>
+                                    </DetailsLayout>
                                     </Col>
-                                </Row>
-                                <Row>  
-                                    <Col md={12}>
-                                        <SocialLayout>
-                                            <FooterSocial href="#" aria-label={"Fb Link"}>
-                                                <FbIcon/>
-                                            </FooterSocial>
-                                            <FooterSocial href="#" aria-label={"Twitter Link"}>
-                                                <TwitterIcon/>
-                                            </FooterSocial>
-                                            <FooterSocial href="#" aria-label={"Linkedin Link"}>
-                                                <LinkedinIcon/>
-                                            </FooterSocial>
-                                            <FooterSocial href="#" aria-label={"Instagram Link"}>
-                                                <InstaIcon/>
-                                            </FooterSocial>
-                                        </SocialLayout>
-                                    </Col>
-
                                 </Row>
                                 </ContactLayoutRight>
                             </ContactWrapper>
-                        <Row>
-                            <Col md="12">
-                                <BottomFooterPara>
-                                    {this.props.FooterData.BottomFooterPara}
-                                    <BottomLink rel="noreferrer" href={this.props.FooterData.BottomFooterLink} target="_blank">
-                                    {this.props.FooterData.BottomFooterName}
-                                    </BottomLink>
-                                </BottomFooterPara>
-                            </Col>
-                        </Row>
                     </Container>
                 </SectionWrapper>
             </FooterSection>
@@ -283,9 +203,6 @@ export default () => (
                                 Href
                                 Menu
                             }
-                            BottomFooterPara
-                            BottomFooterName
-                            BottomFooterLink
                         }
                     }
                 }

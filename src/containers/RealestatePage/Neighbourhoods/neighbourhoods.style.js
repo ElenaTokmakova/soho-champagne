@@ -4,7 +4,7 @@ import {SectionHeading,SectionSubHeading,CommonMerriWh6,Commonpara} from '../Com
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {ChevronDown} from '@styled-icons/boxicons-regular/ChevronDown';
 import {ChevronUp} from '@styled-icons/boxicons-regular/ChevronUp';
-import BackgroundImg from '../../../assets/realestate-images/banner-4.jpg';
+import BackgroundImg from '../../../assets/realestate-images/neighbourhood.jpg';
 const OPACITY = 0.6;
 
 export const NeighbourhoodsSection = styled.section`
@@ -31,7 +31,7 @@ export const HeadingLayout = styled.div`
 `;
 
 export const SmallHeading = styled(SectionSubHeading)`
-    
+
 `;
 
 export const Heading = styled(SectionHeading)`
@@ -44,7 +44,7 @@ export const NeighbourhoodLayout = styled.div`
     @media ${device.tablet} {
         flex-direction:column;
         height:auto;
-    }  
+    }
 `;
 
 export const ImageHolder = styled.div`
@@ -60,7 +60,7 @@ export const ImageHolder = styled.div`
 
     @media ${device.tablet} {
         width:100%;
-    }  
+    }
 `;
 
 export const AccordianWrapper = styled.div`
@@ -72,7 +72,7 @@ export const AccordianWrapper = styled.div`
     @media ${device.tablet} {
         width:100%;
         height:320px;
-    }  
+    }
 `;
 
 
@@ -114,7 +114,7 @@ export const AccordianContentCol = styled.div`
     padding: 0px 40px 15px 0px;
 
     ${props => props.isActive &&`
-        
+
     `}
 
     ${props => !props.isActive &&`

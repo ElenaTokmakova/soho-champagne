@@ -46,19 +46,19 @@ const Neighbourhoods = () => {
                     </HeadingLayout>
                     <NeighbourhoodLayout>
                         <ImageHolder>
-                            <GatsImg 
-                                fluid={NeighbourhoodsData.Img.childImageSharp.fluid} 
-                                alt=""
+                            <GatsImg
+                                fluid={NeighbourhoodsData.Img.childImageSharp.fluid}
+                                alt="Little Italy Ottawa"
                                 className="neighbourhoodImg"
                             />
                         </ImageHolder>
                         <AccordianWrapper>
                         {
                             NeighbourhoodsData.AccordianCustom.map((item,idx) => {
-                            return <AccordianCustom 
-                                isActive={idx===1?true:false}    
+                            return <AccordianCustom
+                                isActive={idx===1?true:false}
                                 title={item.title}
-                                description= {item.description} 
+                                description= {item.description}
                             />
                             })
                         }

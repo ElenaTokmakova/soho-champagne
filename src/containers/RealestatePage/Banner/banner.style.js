@@ -1,10 +1,9 @@
 import styled from 'styled-components';
 import {Commonh6,Commonh1} from '../Common/common.style';
 import {device} from '../Common/device';
-import {ControllerPlay} from '@styled-icons/entypo/ControllerPlay';
 import {Container} from 'react-bootstrap';
 
-const OPACITY = 0.6;
+const OPACITY = 0.5;
 
 export const BannerSection = styled.section`
     min-height:100vh;
@@ -47,7 +46,7 @@ export const BannerContents = styled.div`
 
 export const BannerContentLeft = styled.div`
     text-align:left;
-    max-width:650px;
+    max-width:750px;
     margin-top:40px;
 
     @media ${device.laptop} {
@@ -71,60 +70,10 @@ export const BannerSubHeading = styled(Commonh6)`
 export const BannerHeading = styled(Commonh1)`
     color:#fff;
     text-align:left;
-    
+
     @media ${device.tablet} {
         text-align:center;
     }
-`;
-
-export const WatchVideoAnchor = styled.a`
-    text-decoration:none;
-
-    :hover{
-        text-decoration:none;
-    }
-`;
-
-export const WatchVideoLayout = styled.div`
-    display:flex;
-    align-items:center;
-
-    @media ${device.tablet} {
-        justify-content:center;
-    }
-`;
-
-export const PlayOuterWrapper = styled.div`
-    background:#ADABAC77;
-    border-radius:100%;
-    padding:6px;
-    transition:0.3s all;
-
-    ${WatchVideoLayout}:hover &{
-        transform:scale(1.15);
-        transition:0.3s all;
-    }
-`;
-
-export const PlayWrapper = styled.div`
-    background:#ADABAC;
-    border-radius:100%;
-    padding:8px;
-`;
-
-export const PlayIcon = styled(ControllerPlay)`
-    width: 28px;
-    height: 28px;
-    color:#fff;
-    position:relative;
-    left:2px;
-`;
-
-export const PlayText = styled(Commonh6)`
-    line-height:1;
-    margin-bottom:0px;
-    margin-left:10px;
-    color:#fff;
 `;
 
 export const NextPrev = styled(Container)`
@@ -179,5 +128,5 @@ export const NextImg = styled.img`
     }
     @media ${device.tablet} {
         height:40px;
-    }   
+    }
 `;

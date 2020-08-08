@@ -1,9 +1,8 @@
 import React,{Component} from 'react';
 import {PropertiesSection,SectionWrapper,TopLayout,HeadingLayout,SmallHeading,Heading,
-    CustomTabList,SliderOuterWrapper,ImgButtonLeft,LeftIcon,SliderWrapper,
+    CustomTabList,SliderOuterWrapper,SliderWrapper,
     PropertyLayout,DetailsLayout,TabHeading,TabPara,SizeText,Separator,SpecWrapper,SpecLayout,SpecIcon,SpecText,
-    ImageLayout,ImageHolder,ImgButtonRight,
-    RightIcon
+    ImageLayout,ImageHolder
 } from './properties.style';
 import {Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -39,7 +38,7 @@ class Properties extends Component{
             slidesToShow: 1,
             slidesToScroll: 1,
         };
-        
+
         return(
             <PropertiesSection id="propertiesSection">
                 <SectionWrapper>
@@ -67,9 +66,6 @@ class Properties extends Component{
                                 this.props.PropertiesData.TabList.map((itemTab,idxTab) => {
                                 return <TabPanel>
                                         <SliderOuterWrapper>
-                                            <ImgButtonLeft onClick={this.previous} aria-label="Prev Button">
-                                                <LeftIcon />
-                                            </ImgButtonLeft>
                                             <Slider ref={c => (this.slider = c)} {...settings}>
                                             {
                                                 itemTab.TabPanel.map((itemPanel,idxPanel) => {
@@ -89,7 +85,7 @@ class Properties extends Component{
                                                                     return <SpecLayout>
                                                                         <SpecIcon src={specItem.SpecIcon} alt=""/>
                                                                         <SpecText>
-                                                                        {specItem.SpecText} 
+                                                                        {specItem.SpecText}
                                                                         </SpecText>
                                                                     </SpecLayout>
                                                                 })
@@ -98,12 +94,12 @@ class Properties extends Component{
                                                         </DetailsLayout>
                                                         <ImageLayout>
                                                             <ImageHolder>
-                                                                <GatsImg 
-                                                                    fluid={itemPanel.Img.childImageSharp.fluid} 
+                                                                <GatsImg
+                                                                    fluid={itemPanel.Img.childImageSharp.fluid}
                                                                     alt=""
                                                                     className="propertyImg"
                                                                     imgStyle={{
-                                                                        maxHeight:"250px",
+                                                                        maxHeight:"600px",
                                                                         width:"auto",
                                                                         right:"0",
                                                                         margin:"0px auto"
@@ -116,9 +112,6 @@ class Properties extends Component{
                                                 })
                                             }
                                             </Slider>
-                                            <ImgButtonRight onClick={this.next} aria-label="Next Button">
-                                                <RightIcon />
-                                            </ImgButtonRight>
                                         </SliderOuterWrapper>
                                     </TabPanel>
                                 })
@@ -164,7 +157,6 @@ export default () => (
                 }
             }
         }
-        
     `}
 
     render={(data) => (

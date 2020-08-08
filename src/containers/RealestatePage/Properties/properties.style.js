@@ -2,9 +2,7 @@ import styled from 'styled-components';
 import {SectionHeading,SectionSubHeading,Commonh5,CommonMerriWh6,Commonpara} from '../Common/common.style';
 import {device} from '../Common/device';
 import { TabList} from 'react-tabs';
-import BackgroundImg from '../../../assets/realestate-images/banner-3.jpg';
-import {ChevronLeft} from '@styled-icons/fa-solid/ChevronLeft';
-import {ChevronRight} from '@styled-icons/fa-solid/ChevronRight';
+import BackgroundImg from '../../../assets/realestate-images/description.jpg';
 
 const OPACITY = 0.7;
 
@@ -58,6 +56,7 @@ export const Heading = styled(SectionHeading)`
 `;
 
 export const CustomTabList = styled(TabList)`
+    display: none;
     margin:0px;
 
     .react-tabs__tab{
@@ -88,36 +87,6 @@ export const SliderOuterWrapper = styled.div`
     }
 `;
 
-export const ImgButtonLeft = styled.button`
-    line-height:0px;
-    padding-bottom:0px;
-    border:none;
-    background:none;
-    outline:none;
-    position:absolute;
-    top:calc(50% - 25px); // (icon width + Button Padding)/2 
-    z-index:99;
-    background:rgba(0,0,0,0.5);
-    padding:15px 10px;
-    left: 15px;
-    // border-radius:100%;
-
-    :focus{
-        outline:0;
-    }
-`;
-
-export const LeftIcon = styled(ChevronLeft)`
-    width:20px;
-    height:20px;
-    color:#fff;
-
-    ${ImgButtonLeft}:hover &{
-        color:#f4ba10;
-    }
-`;
-
-
 export const SliderWrapper = styled.div`
 
 `;
@@ -140,7 +109,7 @@ export const DetailsLayout = styled.div`
     }
 
     @media ${device.tablet}{
-        
+
     }
 `;
 
@@ -156,7 +125,7 @@ export const TabPara = styled(Commonpara)`
 
 export const SizeText = styled(CommonMerriWh6)`
     text-align:left;
-    
+
     @media ${device.tablet}{
         text-align:left;
     }
@@ -211,37 +180,10 @@ export const ImageLayout  = styled.div`
 `;
 
 export const ImageHolder  = styled.div`
-    max-height:250px;
+    max-height:600px;
     width:100%;
 
     .propertyImg{
     }
 `;
 
-export const ImgButtonRight = styled.button`
-    line-height:0px;
-    padding-bottom:0px;
-    border:none;
-    background:none;
-    outline:none;
-    position:absolute;
-    top:calc(50% - 25px); // (icon width + Button Padding)/2 
-    z-index:99;
-    background:rgba(0,0,0,0.5);
-    padding:15px 10px;
-    right: 15px;
-
-    :focus{
-        outline:0;
-    }
-`;
-
-export const RightIcon = styled(ChevronRight)`
-    width:20px;
-    height:20px;
-    color:#fff;
-
-    ${ImgButtonRight}:hover &{
-        color:#f4ba10;
-    }
-`;

@@ -8,13 +8,11 @@ import About from "../containers/RealestatePage/About";
 import Amenities from "../containers/RealestatePage/Amenities";
 import Gallery from "../containers/RealestatePage/Gallery";
 import Neighbourhoods from "../containers/RealestatePage/Neighbourhoods";
-import Testimonials from "../containers/RealestatePage/Testimonials";
 import Footer from "../containers/RealestatePage/Footer";
 import GlobalStyle from "../containers/RealestatePage/Common/global-styles";
 import Fonts from "../containers/RealestatePage/Common/fonts";
 import "../components/layout.css";
 import SEO from "../components/seo";
-import BuyNow from "../components/BuyNow";
 
 import Lightbox from 'react-image-lightbox';
 import 'react-image-lightbox/style.css';
@@ -37,7 +35,7 @@ class RealestatePage extends Component{
             console.log(index);
             images.push(value.GallerySliderImg.childImageSharp.fluid.src);
         }
-        
+
         this.setState(
             {
                 isOpenLightBox: true,
@@ -55,21 +53,19 @@ class RealestatePage extends Component{
                         <Fonts/>
                         <GlobalStyle />
                         <main>
-                            <SEO 
-                                title="Real Estate Page 6 | Gatsby Landing Page Templates"
-                                description="Buy unique and professional React GatsbyJS Real Estate landing page templates from Topaz"
+                            <SEO
+                                title="Luxury condo for rent | Champagne Ave S 111, unit 1608"
+                                description="This 16th floor premium 1 bedroom unit in SOHO Champagne hotel-inspired condo offers the best in Ottawa's urban lifestyle. The unit features a range of luxury components, such as full hardwood floors, 9 feet ceilings, and Gluckstein Design kitchen with white quartz countertops, glass tile backsplash and integrated appliances (AEG Wall Oven, AEG Dishwasher, Fridge, Cook top, Panasonic Microwave, Bosch Washer and Dryer). The 3-piece bathroom includes polished marble tile and a walk-in shower..."
                             />
-                            <BuyNow />
                             <Headermenu />
                             <Stickymenu />
                             <Banner />
-                            <Features />
-                            <Properties />
                             <About />
+                            <Properties />
+                            <Features />
                             <Amenities />
                             <Gallery openLightBox = {this.openLightBox} />
                             <Neighbourhoods />
-                            <Testimonials />
                         </main>
                         <Footer />
                     </div>
@@ -93,11 +89,10 @@ class RealestatePage extends Component{
                         }
                     />
                     )
-                }   
-                </div> 
+                }
+                </div>
                 )
             }
         }
-  
+
   export default RealestatePage;
-  

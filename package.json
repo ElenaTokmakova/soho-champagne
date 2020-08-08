@@ -1,7 +1,7 @@
 {
-  "name": "topaz-real-estate",
+  "name": "soho-champagne",
   "private": true,
-  "description": "Topaz Real Estate Landing Page Templates built with ReactJs, GatsbyJs, Bootstrap and Styled Components.",
+  "description": "Real Estate Landing Page Templates built with ReactJs, GatsbyJs, Bootstrap and Styled Components.",
   "version": "1.6.0",
   "author": "Suhas Holla <suhas@rapidmind.in>",
   "dependencies": {

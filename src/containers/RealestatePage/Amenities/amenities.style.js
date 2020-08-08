@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {SectionHeading,SectionSubHeading,CommonMerriWh6} from '../Common/common.style';
 import {device} from '../Common/device';
-import BackgroundImg from '../../../assets/realestate-images/banner-5.jpg';
+import BackgroundImg from '../../../assets/realestate-images/amenities.jpg';
 const OPACITY = 0.7;
 
 export const AmenitiesSection = styled.section`
@@ -28,7 +28,7 @@ export const HeadingLayout = styled.div`
 `;
 
 export const SmallHeading = styled(SectionSubHeading)`
-    
+
 `;
 
 export const Heading = styled(SectionHeading)`

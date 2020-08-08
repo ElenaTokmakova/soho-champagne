@@ -1,5 +1,5 @@
 import React,{Component} from "react";
-import {NavbarCustom,NavbarToggleCustom,BrandLogo} from "./headermenubs.style"
+import {NavbarCustom,NavbarToggleCustom} from "./headermenubs.style"
 import {
     Container,Nav,Navbar
 } from 'react-bootstrap';
@@ -11,7 +11,7 @@ import AnchorLink from 'react-anchor-link-smooth-scroll';
 class Headermenu extends Component{
     constructor(props){
         super(props);
-        this.state = { 
+        this.state = {
             stickyClass:'top',
         };
     }
@@ -29,33 +29,26 @@ class Headermenu extends Component{
             {
                 this.setState({ stickyClass });
             }
-                
         });
     }
 
-    componentWillUnmount() { 
-        window.removeEventListener('scroll'); 
-    } 
+    componentWillUnmount() {
+        window.removeEventListener('scroll');
+    }
 
     render(){
         return(
-            <NavbarCustom 
+            <NavbarCustom
                 expand="lg" fixed="top"
                 isSticky={this.state.stickyClass==="topSticky"?true:false}>
                 <Container>
-                    <Navbar.Brand href="/">
-                        <BrandLogo src={this.state.stickyClass==="topSticky"?this.props.HeaderData.BrandLogoSticky:this.props.HeaderData.BrandLogo}
-                        isSticky={this.state.stickyClass==="topSticky"?true:false}
-                        alt="Logo"
-                        />
-                    </Navbar.Brand>
 
                     <NavbarToggleCustom
                     isSticky={this.state.stickyClass==="topSticky"?true:false}
                     aria-controls="basic-navbar-nav" />
 
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="ml-auto">
+                        <Nav className="ml-auto mr-auto">
                         <ScrollSpy offset={-59} items={this.props.HeaderData.Items} currentClassName="is-current">
                             {
                                 this.props.HeaderData.MenuItems.map((menuItem, idx)=>{
@@ -81,8 +74,6 @@ export default () => (
             query{
                 realestatePageJson {
                     Header{
-                        BrandLogo
-                        BrandLogoSticky
                         Items
                         MenuItems{
                             Menu

@@ -1,8 +1,6 @@
 {
     "Header":
     {
-        "BrandLogo":"../realestate-images/logo-text-white.png",
-        "BrandLogoSticky":"../realestate-images/logo-text-black.png",
         "Items":["homeSection","propertiesSection","aboutSection","amenitiesSection","testimonialsSection","footerSection"],
         "MenuItems":[
             {
@@ -10,20 +8,28 @@
                 "Href":"#homeSection"
             },
             {
-                "Menu":"Properties",
+                "Menu":"About",
+                "Href":"#aboutSection"
+            },
+            {
+                "Menu":"Description",
                 "Href":"#propertiesSection"
             },
             {
-                "Menu":"About",
-                "Href":"#aboutSection"
+                "Menu":"Features",
+                "Href":"#featuresSection"
             },
             {
                 "Menu":"Amenities",
                 "Href":"#amenitiesSection"
             },
             {
-                "Menu":"Testimonials",
-                "Href":"#testimonialsSection"
+                "Menu":"Gallery",
+                "Href":"#gallerySection"
+            },
+            {
+                "Menu":"Neihbourhood",
+                "Href":"#neighbourhoodsSection"
             },
             {
                 "Menu":"Contact",
@@ -34,19 +40,19 @@
     "StickyMenu":{
         "Bullet":"../realestate-images/bullet.svg",
         "SelectedBullet":"../realestate-images/selected-bullet.svg",
-        "Items":["homeSection","featuresSection","propertiesSection","aboutSection","amenitiesSection","gallerySection","neighbourhoodsSection","testimonialsSection","footerSection"],
+        "Items":["homeSection","aboutSection","propertiesSection","featuresSection","amenitiesSection","gallerySection","neighbourhoodsSection","footerSection"],
         "MenuItems":[
                 {
                     "Href":"#homeSection"
                 },
                 {
-                    "Href":"#featuresSection"
+                    "Href":"#aboutSection"
                 },
                 {
                     "Href":"#propertiesSection"
                 },
                 {
-                    "Href":"#aboutSection"
+                    "Href":"#featuresSection"
                 },
                 {
                     "Href":"#amenitiesSection"
@@ -58,9 +64,6 @@
                     "Href":"#neighbourhoodsSection"
                 },
                 {
-                    "Href":"#testimonialsSection"
-                },
-                {
                     "Href":"#footerSection"
                 }
         ]
@@ -70,58 +73,76 @@
         "BannerSlides":[
             {
                 "BannerImage":"../../assets/realestate-images/banner-1_slider.jpg",
-                "BannerHeading":"Modern House Make Better Life",
-                "BannerSubHeading":"Welcome to Modern Villas",
-                "WatchVideoAnchor":"Walkthrough Video"
+                "BannerHeading":"Modern luxury in the heart of Little Italy",
+                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
             },
             {
                 "BannerImage":"../../assets/realestate-images/banner-2_slider.jpg",
-                "BannerHeading":"Remarkable Value Unbeatable Location",
-                "BannerSubHeading":"Welcome to Modern Villas",
-                "WatchVideoAnchor":"Walkthrough Video"
+                "BannerHeading":"Remarkable value Unbeatable location",
+                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
+            },
+            {
+                "BannerImage":"../../assets/realestate-images/banner-3_slider.jpg",
+                "BannerHeading":"Limited edition premium floorplan with luxury modifications",
+                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
+            },
+            {
+                "BannerImage":"../../assets/realestate-images/banner-4_slider.jpg",
+                "BannerHeading":"Floor-to-Ceiling & Wall-to-Wall Windows™",
+                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
+            },
+            {
+                "BannerImage":"../../assets/realestate-images/banner-5_slider.jpg",
+                "BannerHeading":"Upgraded bedroom with sliding glass doors",
+                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
+            },
+            {
+                "BannerImage":"../../assets/realestate-images/banner-6_slider.jpg",
+                "BannerHeading":"Fully equipped Dalton Brown gym",
+                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
+            },
+            {
+                "BannerImage":"../../assets/realestate-images/banner-7_slider.jpg",
+                "BannerHeading":"Recreationsal activities on Dow's lake are 5 minutes away",
+                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
+            },
+            {
+                "BannerImage":"../../assets/realestate-images/banner-8_slider.jpg",
+                "BannerHeading":"Breathtaking view of downtown Ottawa",
+                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
+            },
+            {
+                "BannerImage":"../../assets/realestate-images/banner-9_slider.jpg",
+                "BannerHeading":"Live your story at Soho Champagne",
+                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
             }
         ],
         "PrevImg":"../realestate-images/left-slider.svg",
         "NextImg":"../realestate-images/right-slider.svg"
     },
-    "Features":
-    {
-        "SmallHeading":"Our Modern Villa",
-        "Heading":"Property Features",
-        "FeaturesWrapper":[
-            {
-                "FeaturesCardIcon":"../realestate-images/quality-construction.svg",
-                "FeaturesCardHeading":"Quality Construction",
-                "FeaturesCardPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry"
-            },
-            {
-                "FeaturesCardIcon":"../realestate-images/best-amenities.svg",
-                "FeaturesCardHeading":"Best Amenities",
-                "FeaturesCardPara":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at it"
-            },
-            {
-                "FeaturesCardIcon":"../realestate-images/buyers-trust.svg",
-                "FeaturesCardHeading":"Buyers Trust",
-                "FeaturesCardPara":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature"
-            }
-        ]
+    "About":{
+        "SmallHeading":"",
+        "Heading":"Soho Champagne unit 1608",
+        "Description1":"This 16th floor premium 1 bedroom unit in SOHO Champagne hotel-inspired condo offers the best in Ottawa's urban lifestyle. The building is located in Little Italy, right on the bike path and minutes away from the O-Train Carling station, Carleton University, the Rideau Canal, beautiful Dow's Lake, tranquil Arboretum and some of the best Ottawa restaurants located along the Preston street. Combined with the unit's 9ft. floor-to-ceiling windows and 78 sq. ft. private balcony overlooking Preston street and the Dow's Lake (a guaranteed unobstructed view!), the location, the convenience and the views are truly unbeatable.",
+        "Description2":"Price Includes 1 undeground parking & 1 storage locker. Appliances: EG Wall Oven, AEG Dishwasher, Fridge, Cook top, Panasonic Microwave, Bosch Washer and Dryer, Nest smart thermostat. Building Amenities: Dalton Brown Gym, Theatre, Terrace, Hot Tub, BBQ, Party Room, Business Center. Transit Options: Steps to O-Train and bus stop, highway nearby. Site Influences: Dow's Lake, the Rideau Canal, Highway Access, O-Train, Preston Street, Ottawa Hospital Civic Campus, Carleton University, Commissioners Park, Dominion Arboretum.",
+        "Img":"../../assets/realestate-images/about-image.jpg"
     },
     "Properties":{
-        "SmallHeading":"Our Best Villa",
+        "SmallHeading":"SOHO Champagne hotel-inspired condo, unit 1608",
         "Heading":"Property Description",
         "TabList":[
             {
-                "Tab":"2 Bedroom",
+                "Tab":"1 Bedroom",
                 "TabPanel":[
                     {
-                        "Img":"../../assets/realestate-images/property-4.png",
-                        "TabHeading":"2 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"1218 Square feet",
+                        "Img":"../../assets/realestate-images/floor-plan.png",
+                        "TabHeading":"1 Bedroom condo",
+                        "TabPara":"The unit features an extremely popular limited edition H floor plan with a unique bedroom layout and luxury modifications (featured exclusively for the upper floors), previously completely sold out. The unit features a range of luxury components, such as full hardwood floors, 9 feet ceilings, and Gluckstein Design kitchen with white quartz countertops, glass tile backsplash and integrated appliances (AEG Wall Oven, AEG Dishwasher, Fridge, Cook top, Panasonic Microwave, Bosch Washer and Dryer). The 3-piece bathroom includes polished marble tile and a walk-in shower. One parking spot and a storage locker are included in the price.",
+                        "SizeText":"698 Square feet",
                         "SpecLayout":[
                             {
                                 "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"2 Bedrooms"
+                                "SpecText":"1 Bedroom"
                             },
                             {
                                 "SpecIcon":"../realestate-images/balcony.svg",
@@ -129,309 +150,11 @@
                             },
                             {
                                 "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
+                                "SpecText":"1 Parking"
                             },
                             {
                                 "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    },
-                    {
-                        "Img":"../../assets/realestate-images/property-3.png",
-                        "TabHeading":"2 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"1320 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"2 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"1 Balcony"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    },
-                    {
-                        "Img":"../../assets/realestate-images/property-2.png",
-                        "TabHeading":"2 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"1410 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"2 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"1 Balcony"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    },
-                    {
-                        "Img":"../../assets/realestate-images/property-1.png",
-                        "TabHeading":"2 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"1480 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"2 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"1 Balcony"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Tab":"3 Bedroom",
-                "TabPanel":[
-                    {
-                        "Img":"../../assets/realestate-images/property-2.png",
-                        "TabHeading":"3 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"1528 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"3 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"1 Balcony"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    },
-                    {
-                        "Img":"../../assets/realestate-images/property-1.png",
-                        "TabHeading":"3 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"1650 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"3 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"1 Balcony"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    },
-                    {
-                        "Img":"../../assets/realestate-images/property-3.png",
-                        "TabHeading":"3 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"1800 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"3 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"1 Balcony"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    },
-                    {
-                        "Img":"../../assets/realestate-images/property-4.png",
-                        "TabHeading":"3 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"1880 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"3 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"1 Balcony"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "Tab":"4 Bedroom",
-                "TabPanel":[
-                    {
-                        "Img":"../../assets/realestate-images/property-2.png",
-                        "TabHeading":"4 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"2118 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"4 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"2 Balconies"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    },
-                    {
-                        "Img":"../../assets/realestate-images/property-3.png",
-                        "TabHeading":"4 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"2300 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"4 Bed Rooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"2 Balconies"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    },
-                    {
-                        "Img":"../../assets/realestate-images/property-1.png",
-                        "TabHeading":"4 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"2400 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"4 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"2 Balconies"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    },
-                    {
-                        "Img":"../../assets/realestate-images/property-4.png",
-                        "TabHeading":"4 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"2580 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"4 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"2 Balconies"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
-                            }
-                        ]
-                    },
-                    {
-                        "Img":"../../assets/realestate-images/property-3.png",
-                        "TabHeading":"4 Bedroom",
-                        "TabPara":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has",
-                        "SizeText":"2800 Square feet",
-                        "SpecLayout":[
-                            {
-                                "SpecIcon":"../realestate-images/bed.svg",
-                                "SpecText":"4 Bedrooms"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/balcony.svg",
-                                "SpecText":"2 Balconies"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/garage.svg",
-                                "SpecText":"1 Garage"
-                            },
-                            {
-                                "SpecIcon":"../realestate-images/bathtub.svg",
-                                "SpecText":"2 Bathrooms"
+                                "SpecText":"1 Bathroom"
                             }
                         ]
                     }
@@ -441,44 +164,43 @@
         "PrevImg":"../realestate-1-images/left-arrow.svg",
         "NextImg":"../realestate-1-images/right-arrow.svg"
     },
-    "About":{
-        "SmallHeading":"Know More",
-        "Heading":"About The Property",
-        "Description1":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.",
-        "Description2":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search",
-        "Img":"../../assets/realestate-images/about-image.jpg"
+    "Features":
+    {
+        "SmallHeading":"",
+        "Heading":"Condo Features",
+        "FeaturesWrapper":[
+            {
+                "FeaturesCardIcon":"../realestate-images/quality-construction.svg",
+                "FeaturesCardHeading":"Quality Construction",
+                "FeaturesCardPara":"The condo was built by Mastercraft Starwood, a leader in luxury residential development, under its SoHo brand that is known for superior design and quality features and finishes. Following the tradisiton of international collaboration with leading architects, designers and artists, the Soho Champagne luxury residence features Brian Gluckstein designed interiors, SoHo Floor-to-Ceiling & Wall-to-Wall Windows™ and SoHo Designer Kitchen™."
+            },
+            {
+                "FeaturesCardIcon":"../realestate-images/buyers-trust.svg",
+                "FeaturesCardHeading":"Builder You Can Trust",
+                "FeaturesCardPara":"Mastercraft Starwood has developed, acquired, and managed over 10,000 homes, condominiums, rental apartments, townhouses, and hotels in Ottawa, Toronto, Calgary, Vancouver for over 60 years. Mastercraft Starwood developed, owns, and manages Toronto’s finest hotels: The SoHo Hotel – one of the most successful boutique hotels in Canada, and The Hazelton Hotel – Toronto’s first five-star hotel. Starwood also owns and manages the extended stay SoHo Residences in Toronto and Ottawa."
+            },
+            {
+                "FeaturesCardIcon":"../realestate-images/best-amenities.svg",
+                "FeaturesCardHeading":"Best Amenities",
+                "FeaturesCardPara":"SOHO Champagne provides over 15,000 sq. ft. of amenity space, both indoor and outdoor. The building features a fully-equipped Dalton Brown Gym, a 25+ seat theater with state-of-the-art equipment, a party room, a lounge area, a two-storey hotel inspired lobby with marble walls and floors, a third floor landscaped outdoor terrace with hot tub, BBQ and dining area - over 15,000 sq. ft. of amenity space! A hotel-trained concierge is present on site and ready to take care of your needs. "
+            }
+        ]
     },
     "Amenities":{
-        "SmallHeading":"Facilities",
+        "SmallHeading":"",
         "Heading":"Amenities",
         "AmenitiesData":[
             {
                 "Img":"../realestate-images/garden.svg",
-                "AmenitiesText":"Garden"
+                "AmenitiesText":"Landscaped Terrace"
             },
             {
                 "Img":"../realestate-images/multi-purpose-hall.svg",
-                "AmenitiesText":"Hall"
+                "AmenitiesText":"Two-storey Lobby"
             },
             {
                 "Img":"../realestate-images/gymnastic.svg",
-                "AmenitiesText":"Gymnastic"
-            },
-            {
-                "Img":"../realestate-images/cctv.svg",
-                "AmenitiesText":"CCTV"
-            },
-            {
-                "Img":"../realestate-images/tennis-court.svg",
-                "AmenitiesText":"Tennis Court"
-            },
-            {
-                "Img":"../realestate-images/basket-ball-court.svg",
-                "AmenitiesText":"Basket Ball Court"
-            },
-            {
-                "Img":"../realestate-images/swimming-pool.svg",
-                "AmenitiesText":"Swimming Pool"
+                "AmenitiesText":"Dalton Brown Gym"
             },
             {
                 "Img":"../realestate-images/library.svg",
@@ -487,8 +209,8 @@
         ]
     },
     "Gallery":{
-        "SmallHeading":"Photoshoot",
-        "Heading":"Our Gallery",
+        "SmallHeading":"",
+        "Heading":"Gallery",
         "PrevImg":"../realestate-images/left-slider.svg",
         "NextImg":"../realestate-images/right-slider.svg",
         "Slider":[
@@ -527,95 +249,96 @@
             },
             {
                 "GallerySliderImg":"../../assets/realestate-images/gallery-12.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-13.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-14.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-15.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-16.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-17.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-18.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-19.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-20.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-21.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-22.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-23.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-24.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-25.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-26.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-27.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-28.jpg"
+            },
+            {
+                "GallerySliderImg":"../../assets/realestate-images/gallery-29.jpg"
             }
         ]
     },
     "Neighbourhoods":{
-        "SmallHeading":"Our Property",
-        "Heading":"Neighbourhoods",
+        "SmallHeading":"",
+        "Heading":"Neighbourhood",
         "Img":"../../assets/realestate-images/neighborhood-image.jpg",
         "AccordianCustom":[
             {
-                "title":"Shopping Mall",
-                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+                "title":"Little Italy",
+                "description":"Located across from Dow’s Lake Ottawa and known locally as “Little Italy”, the neighborhood was initially settled around 1900 by Italian immigrants and has now evolved to one of the most culture-rich quarters Ottawa has on offer. Since 1975, each June the neighbourhood hosts the Italian Week festival, Ottawa's celebration of Italian culture."
             },
             {
-                "title":"Kids School",
-                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+                "title":"Dow's Lake",
+                "description":"Dow's lake situated on the Rideau canal is the centre of much of the city’s recreational activities. In May, the surrounding park, Commissioners Park, displays tulips planted by the NCC (National Capital Commission) for the annual Canadian Tulip Festival. Over 50 varieties and approximately 300,000 tulips bloom each May along the Rideau Canal. During the winter, Dow's Lake freezes and becomes part of the world's longest skating rink and one of the primary sites of the Winterlude festival in February, with events such as the 'bed races' and 'waiter races' on the ice. At the north end of the lake a pavilion is situated over the water with three restaurants overlooking the water. "
             },
             {
-                "title":"Metro Station",
-                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
+                "title" : "Restaurants",
+                "description" : "Little Italy offers one of the best varieties of dining locations in the Ottawa, ranging from an iconic Canadian diner FlapJack’s to Giovanni’s, one of the best Italian restaurants in the city. "
             },
             {
-                "title":"Super Market",
-                "description":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley"
-            },
-            {
-                "title":"George Health Care",
-                "description":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock"
-            },
-            {
-                "title":"Restaurant",
-                "description":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words"
-            },
-            {
-                "title":"Car Showroom",
-                "description":"It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable."
-            },
-            {
-                "title":"Counselor Office",
-                "description":"All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet"
-            }
-        ]
-    },
-    "Testimonials":{
-        "SmallHeading":"Testimonials",
-        "Heading":"What Our Clients say?",
-        "TestimonialCards":[
-            {
-                "Img":"../../assets/realestate-images/testimonial-1.jpg",
-                "TestimonialText":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it",
-                "Author":"Mohammed Hayaz",
-                "Designation":"Team Lead"
-            },
-            {
-                "Img":"../../assets/realestate-images/testimonial-2.jpg",
-                "TestimonialText":"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters",
-                "Author":"Paul John",
-                "Designation":"Managing Director"
-            },
-            {
-                "Img":"../../assets/realestate-images/testimonial-3.jpg",
-                "TestimonialText":"Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia",
-                "Author":"Jonathan Stat",
-                "Designation":"Operation Manager"
-            },
-            {
-                "Img":"../../assets/realestate-images/testimonial-4.jpg",
-                "TestimonialText":"There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a",
-                "Author":"Smith Robert",
-                "Designation":"Founer and CEO"
+                "title":"Public transit and new LRT",
+                "description":"The neighbourhood is located on multiple major bus routes and the O-train. Located near the intersection of Preston Street and Carling Avenue, it provides a direct and reliable link to Bayview Station and downtown, Carleton University, and the Greenboro shopping area, while easy access to the 417 makes a drive towards either Kanata or Orleans a smooth and quick experience. A bike path, running parallel to the Preston street, offers a wonderful cycling experience, safe from the street traffic."
             }
         ]
     },
     "Footer":
     {
-        "SmallHeading":"Contact Us",
+        "SmallHeading":"",
         "Heading":"Get in Touch",
         "ContactButtonText":"Send Message",
         "DetailsData":[
             {
-                "DetailsIcon":"../realestate-images/address.svg",
-                "DetailsText":"3424 Ugoa street Smiths Lake NSW 6274, Australia"
-            },
-            {
                 "DetailsIcon":"../realestate-images/call.svg",
-                "DetailsText":"+ (67) 1534 9780"
+                "DetailsText":"+1 (613) 793-0762"
             },
             {
                 "DetailsIcon":"../realestate-images/mail.svg",
-                "DetailsText":"hello@reactrepo.com"
+                "DetailsText":"SOHOCHAMPAGNE1608@GMAIL.COM"
             }
         ],
         "FooterUl":[

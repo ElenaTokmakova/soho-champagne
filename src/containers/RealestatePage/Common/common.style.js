@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {device} from './device';
 
 export const Commonbtn = styled.a`
-    background: #f4ba10;
+    background: #bf9e3b;
     color: #000;
     padding: 8px 40px;
     text-decoration:none;
@@ -32,7 +32,7 @@ export const Commonh1 = styled.h1`
         font-size:54px;
         line-height:1.2;
     }
-    
+
     @media ${device.mobileXL} {
         font-size:42px;
         line-height:1.2;
