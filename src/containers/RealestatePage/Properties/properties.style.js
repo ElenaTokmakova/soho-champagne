@@ -88,7 +88,7 @@ export const SliderOuterWrapper = styled.div`
 `;
 
 export const SliderWrapper = styled.div`
-
+    outline: none;
 `;
 
 export const PropertyLayout = styled.div`
@@ -182,6 +182,9 @@ export const ImageLayout  = styled.div`
 export const ImageHolder  = styled.div`
     max-height:600px;
     width:100%;
+    :hover {
+        cursor: pointer;
+    }
 
     .propertyImg{
     }
