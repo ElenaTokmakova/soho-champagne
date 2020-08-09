@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import BackgroundImg from '../../../assets/realestate-images/pattern-banner.jpg';
 
 export const AboutSection = styled.section`
+    background-color: black;
     background-image:url(${BackgroundImg});
     background-repeat:no-repeat;
     background-size:cover;
@@ -25,7 +26,7 @@ export const SectionWrapper = styled.div`
 
 export const CustomRow = styled(Row)`
     align-items:center;
-    
+
     @media ${device.laptop} {
         flex-direction:column;
     }

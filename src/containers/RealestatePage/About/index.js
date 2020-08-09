@@ -44,17 +44,17 @@ const About = () => {
                                     </Heading>
                                 </HeadingLayout>
                                 <Description1>
-                                {AboutData.Description1} 
+                                {AboutData.Description1}
                                 </Description1>
                                 <Description2>
-                                {AboutData.Description2} 
+                                {AboutData.Description2}
                                 </Description2>
                             </TextLayout>
                         </Col>
                         <Col md={12} lg={5}>
                             <ImageHolder>
-                                <GatsImg 
-                                    fluid={AboutData.Img.childImageSharp.fluid} 
+                                <GatsImg
+                                    fluid={AboutData.Img.childImageSharp.fluid}
                                     alt=""
                                     className="aboutImg"
                                 />

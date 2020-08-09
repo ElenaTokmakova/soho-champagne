@@ -103,7 +103,7 @@
             },
             {
                 "BannerImage":"../../assets/realestate-images/banner-7_slider.jpg",
-                "BannerHeading":"Recreationsal activities on Dow's lake are 5 minutes away",
+                "BannerHeading":"Recreational activities on Dow's lake are 5 minutes away",
                 "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
             },
             {
@@ -121,7 +121,7 @@
         "NextImg":"../realestate-images/right-slider.svg"
     },
     "About":{
-        "SmallHeading":"",
+        "SmallHeading":"SOHO Champagne hotel-inspired luxury condo, unit 1608",
         "Heading":"Soho Champagne unit 1608",
         "Description1":"This 16th floor premium 1 bedroom unit in SOHO Champagne hotel-inspired condo offers the best in Ottawa's urban lifestyle. The building is located in Little Italy, right on the bike path and minutes away from the O-Train Carling station, Carleton University, the Rideau Canal, beautiful Dow's Lake, tranquil Arboretum and some of the best Ottawa restaurants located along the Preston street. Combined with the unit's 9ft. floor-to-ceiling windows and 78 sq. ft. private balcony overlooking Preston street and the Dow's Lake (a guaranteed unobstructed view!), the location, the convenience and the views are truly unbeatable.",
         "Description2":"Price Includes 1 undeground parking & 1 storage locker. Appliances: EG Wall Oven, AEG Dishwasher, Fridge, Cook top, Panasonic Microwave, Bosch Washer and Dryer, Nest smart thermostat. Building Amenities: Dalton Brown Gym, Theatre, Terrace, Hot Tub, BBQ, Party Room, Business Center. Transit Options: Steps to O-Train and bus stop, highway nearby. Site Influences: Dow's Lake, the Rideau Canal, Highway Access, O-Train, Preston Street, Ottawa Hospital Civic Campus, Carleton University, Commissioners Park, Dominion Arboretum.",
@@ -166,7 +166,7 @@
     },
     "Features":
     {
-        "SmallHeading":"",
+        "SmallHeading":"SOHO Champagne hotel-inspired luxury condo",
         "Heading":"Condo Features",
         "FeaturesWrapper":[
             {
@@ -175,19 +175,19 @@
                 "FeaturesCardPara":"The condo was built by Mastercraft Starwood, a leader in luxury residential development, under its SoHo brand that is known for superior design and quality features and finishes. Following the tradisiton of international collaboration with leading architects, designers and artists, the Soho Champagne luxury residence features Brian Gluckstein designed interiors, SoHo Floor-to-Ceiling & Wall-to-Wall Windows™ and SoHo Designer Kitchen™."
             },
             {
-                "FeaturesCardIcon":"../realestate-images/buyers-trust.svg",
-                "FeaturesCardHeading":"Builder You Can Trust",
-                "FeaturesCardPara":"Mastercraft Starwood has developed, acquired, and managed over 10,000 homes, condominiums, rental apartments, townhouses, and hotels in Ottawa, Toronto, Calgary, Vancouver for over 60 years. Mastercraft Starwood developed, owns, and manages Toronto’s finest hotels: The SoHo Hotel – one of the most successful boutique hotels in Canada, and The Hazelton Hotel – Toronto’s first five-star hotel. Starwood also owns and manages the extended stay SoHo Residences in Toronto and Ottawa."
-            },
-            {
                 "FeaturesCardIcon":"../realestate-images/best-amenities.svg",
                 "FeaturesCardHeading":"Best Amenities",
-                "FeaturesCardPara":"SOHO Champagne provides over 15,000 sq. ft. of amenity space, both indoor and outdoor. The building features a fully-equipped Dalton Brown Gym, a 25+ seat theater with state-of-the-art equipment, a party room, a lounge area, a two-storey hotel inspired lobby with marble walls and floors, a third floor landscaped outdoor terrace with hot tub, BBQ and dining area - over 15,000 sq. ft. of amenity space! A hotel-trained concierge is present on site and ready to take care of your needs. "
+                "FeaturesCardPara":"SOHO Champagne provides over 15,000 sq. ft. of amenity space, both indoor and outdoor. The building features a fully-equipped Dalton Brown Gym, a 25+ seat theater with state-of-the-art equipment, a party room, a lounge area, a two-storey hotel inspired lobby with marble walls and floors, a third floor landscaped outdoor terrace with hot tub, BBQ and dining area - over 15,000 sq. ft. of amenity space! A hotel-trained concierge is present on site. "
+            },
+            {
+                "FeaturesCardIcon":"../realestate-images/buyers-trust.svg",
+                "FeaturesCardHeading":"Great Neighbourhood",
+                "FeaturesCardPara":"Soho Champagne is located in Little Italy, one of Ottawa's finest neighbourhoods. Little Italy is steeped in history and is a great destination for both residents and visitors. It offers a range of fantastic dining options and is surrounded by park land, including Dows Lake and the National Capital Commission (NCC) trail system. Since 1975, each June the neighbourhood hosts the Italian Week festival, Ottawa's celebration of Italian culture."
             }
         ]
     },
     "Amenities":{
-        "SmallHeading":"",
+        "SmallHeading":"SOHO Champagne hotel-inspired luxury condo",
         "Heading":"Amenities",
         "AmenitiesData":[
             {
@@ -209,7 +209,7 @@
         ]
     },
     "Gallery":{
-        "SmallHeading":"",
+        "SmallHeading":"SOHO Champagne hotel-inspired luxury condo, unit 1608",
         "Heading":"Gallery",
         "PrevImg":"../realestate-images/left-slider.svg",
         "NextImg":"../realestate-images/right-slider.svg",
@@ -304,7 +304,7 @@
         ]
     },
     "Neighbourhoods":{
-        "SmallHeading":"",
+        "SmallHeading":"SOHO Champagne hotel-inspired luxury condo",
         "Heading":"Neighbourhood",
         "Img":"../../assets/realestate-images/neighborhood-image.jpg",
         "AccordianCustom":[
@@ -322,13 +322,13 @@
             },
             {
                 "title":"Public transit and new LRT",
-                "description":"The neighbourhood is located on multiple major bus routes and the O-train. Located near the intersection of Preston Street and Carling Avenue, it provides a direct and reliable link to Bayview Station and downtown, Carleton University, and the Greenboro shopping area, while easy access to the 417 makes a drive towards either Kanata or Orleans a smooth and quick experience. A bike path, running parallel to the Preston street, offers a wonderful cycling experience, safe from the street traffic."
+                "description":"The neighbourhood is located on multiple major bus routes and steps from Ottawa's Carling O Train station. Being close to the intersection of Preston Street and Carling Avenue, it provides a direct and reliable link to Bayview Station and downtown, Carleton University, and the Greenboro shopping area, while easy access to the 417 makes a drive towards either Kanata or Orleans a smooth and quick experience. A bike path, running parallel to the Preston street, offers a wonderful cycling experience, safe from the street traffic."
             }
         ]
     },
     "Footer":
     {
-        "SmallHeading":"",
+        "SmallHeading":"SOHO Champagne hotel-inspired luxury condo, unit 1608 for rent (currently rented)",
         "Heading":"Get in Touch",
         "ContactButtonText":"Send Message",
         "DetailsData":[
@@ -338,7 +338,7 @@
             },
             {
                 "DetailsIcon":"../realestate-images/mail.svg",
-                "DetailsText":"SOHOCHAMPAGNE1608@GMAIL.COM"
+                "DetailsText":"sohochampagne1608@gmail.com"
             }
         ],
         "FooterUl":[

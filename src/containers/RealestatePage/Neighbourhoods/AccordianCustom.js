@@ -23,17 +23,17 @@ class AccordianCustom extends Component {
                         </AccordianTitle>
                         <IconHolder>
                         {
-                            this.state.isActive && 
+                            this.state.isActive &&
                             <MinusIcon/>
                         }
                         {
-                            !this.state.isActive && 
+                            !this.state.isActive &&
                             <PlusIcon/>
                         }
                         </IconHolder>
                     </AccordianTitleCol>
 
-                    <AnimateHeight height={this.state.isActive?"auto":"0"}>
+                    <AnimateHeight height={this.state.isActive?"auto":"0%"}>
                         <AccordianContentCol isActive={this.state.isActive}>
                             <AccordianContent>
                                 {this.props.description}

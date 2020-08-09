@@ -56,6 +56,7 @@ const Neighbourhoods = () => {
                         {
                             NeighbourhoodsData.AccordianCustom.map((item,idx) => {
                             return <AccordianCustom
+                                key={idx}
                                 isActive={idx===1?true:false}
                                 title={item.title}
                                 description= {item.description}

@@ -81,4 +81,7 @@ export const DetailsText = styled(Commonpara)`
     margin-bottom:0;
     margin-left:15px;
     line-height:1.2;
+    a {
+        color:#fff;
+    }
 `;

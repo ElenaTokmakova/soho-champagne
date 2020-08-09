@@ -4,6 +4,7 @@ import {SectionSubHeading,SectionHeading} from '../Common/common.style';
 import BackgroundImg from '../../../assets/realestate-images/pattern-banner.jpg';
 
 export const GallerySection = styled.section`
+    background-color: black;
     background-image:url(${BackgroundImg});
     background-repeat:no-repeat;
     background-size:cover;
@@ -91,12 +92,18 @@ export const NextImg = styled.img`
     }
     @media ${device.tablet} {
         height:40px;
-    }   
+    }
 `;
 
 export const SliderOuterWrapper = styled.div`
     margin-left:-15px;
     margin-right:-15px;
+
+    .slick-dots li button::before {
+        color: white;
+        font-size: 20px;
+    }
+
 `;
 
 export const SLiderWrapper = styled.div`

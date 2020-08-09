@@ -132,6 +132,8 @@ class Footer extends Component{
     }
 
     render() {
+        const phoneLink = `tel:${this.props.FooterData.DetailsData[0].DetailsText}`;
+        const emailLink = `mailto:${this.props.FooterData.DetailsData[1].DetailsText}`;
         return (
             <FooterSection id="footerSection">
                 <SectionWrapper>
@@ -164,7 +166,7 @@ class Footer extends Component{
                                             <DetailsLayout>
                                                 <DetailsIcon src={this.props.FooterData.DetailsData[0].DetailsIcon} alt=""/>
                                                 <DetailsText>
-                                                {this.props.FooterData.DetailsData[0].DetailsText}
+                                                    <a href={phoneLink}>{this.props.FooterData.DetailsData[0].DetailsText}</a>
                                                 </DetailsText>
                                             </DetailsLayout>
                                         </ContactUsLayout>
@@ -173,7 +175,7 @@ class Footer extends Component{
                                     <DetailsLayout>
                                         <DetailsIcon src={this.props.FooterData.DetailsData[1].DetailsIcon} alt=""/>
                                         <DetailsText>
-                                        {this.props.FooterData.DetailsData[1].DetailsText}
+                                            <a href={emailLink}>{this.props.FooterData.DetailsData[1].DetailsText}</a>
                                         </DetailsText>
                                     </DetailsLayout>
                                     </Col>

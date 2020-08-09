@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {SectionHeading,SectionSubHeading,CommonMerriWh6} from '../Common/common.style';
 import {device} from '../Common/device';
 import BackgroundImg from '../../../assets/realestate-images/amenities.jpg';
-const OPACITY = 0.7;
+const OPACITY = 0.6;
 
 export const AmenitiesSection = styled.section`
     background-image:url(${BackgroundImg}) !important;

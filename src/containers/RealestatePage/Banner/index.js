@@ -52,7 +52,7 @@ class Banner extends Component {
                     <Slider ref={c => (this.slider = c)} {...settings}>
                     {
                         this.props.BannerData.BannerSlides.map((item,idx)=>{
-                            return<BannerSlide>
+                            return<BannerSlide key={idx}>
                                 <BannerImageHolder>
                                     <GatsImg
                                         fluid={item.BannerImage.childImageSharp.fluid}

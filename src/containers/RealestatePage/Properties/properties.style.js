@@ -4,7 +4,7 @@ import {device} from '../Common/device';
 import { TabList} from 'react-tabs';
 import BackgroundImg from '../../../assets/realestate-images/description.jpg';
 
-const OPACITY = 0.7;
+const OPACITY = 0.5;
 
 export const PropertiesSection = styled.section`
     background-image:url(${BackgroundImg});

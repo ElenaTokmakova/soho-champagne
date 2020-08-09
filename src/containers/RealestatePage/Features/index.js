@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import { useStaticQuery, graphql } from 'gatsby';
 
-const Features = () => {  
+const Features = () => {
     const JSONData  = useStaticQuery(graphql`
         query{
             realestatePageJson {
@@ -39,9 +39,9 @@ const Features = () => {
                     </HeadingLayout>
                     <FeaturesWrapper>
                         <Row>
-                        { 
+                        {
                             FeaturesData.FeaturesWrapper.map((item,idx) => {
-                            return <Col lg="4" md="12" sm="12">
+                            return <Col lg="4" md="12" sm="12" key={idx}>
                                         <FeaturesCard>
                                             <FeaturesCardIcon src={item.FeaturesCardIcon} alt=""/>
                                             <FeaturesTextLayout>

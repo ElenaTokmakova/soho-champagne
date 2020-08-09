@@ -3,7 +3,8 @@ import {Commonh6,Commonh1} from '../Common/common.style';
 import {device} from '../Common/device';
 import {Container} from 'react-bootstrap';
 
-const OPACITY = 0.5;
+const OPACITY = 0.6;
+const OPACITY2 = 0.2;
 
 export const BannerSection = styled.section`
     min-height:100vh;
@@ -41,13 +42,15 @@ export const BannerContents = styled.div`
     height:100%;
     display:flex;
     align-items:center;
-    background:rgba(0,0,0,${OPACITY});
+    background:rgba(0,0,0,${OPACITY2});
 `;
 
 export const BannerContentLeft = styled.div`
     text-align:left;
     max-width:750px;
     margin-top:40px;
+    padding: 20px;
+    background:rgba(0,0,0,${OPACITY});
 
     @media ${device.laptop} {
         max-width:550px;

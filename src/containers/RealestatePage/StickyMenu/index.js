@@ -20,12 +20,12 @@ const Stickymenu = () => {
     `);
     const StickyMenuData =  JSONData.realestatePageJson.StickyMenu;
     return(
-        <StickySection> 
+        <StickySection>
             <MenuLayout>
                 <ScrollSpy offset={-59} items={StickyMenuData.Items} currentClassName="is-current">
                 {
                     StickyMenuData.MenuItems.map((menuObj, idx) => {
-                    return <MenuLi>
+                    return <MenuLi key={idx}>
                             <AnchorLink href={menuObj.Href} aria-label={"menulink-"+idx} rel="noreferrer">
                                 <StickyIcon />
                             </AnchorLink>
@@ -37,5 +37,5 @@ const Stickymenu = () => {
         </StickySection>
     );
 }
-    
+
 export default Stickymenu;

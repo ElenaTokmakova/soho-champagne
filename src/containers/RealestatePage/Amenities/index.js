@@ -48,7 +48,7 @@ const Amenities = () => {
                     <Row>
                     {
                         AmenitiesData.AmenitiesData.map((amnObj, idx) => {
-                        return <Col lg={3} md={6} sm={6}>
+                        return <Col lg={3} md={6} sm={6} key={idx}>
                             <AmenitiesLayout>
                                 <AmenitiesImage src={amnObj.Img} alt="" />
                                 <AmenitiesText>

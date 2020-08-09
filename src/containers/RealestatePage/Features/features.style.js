@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import BackgroundImg from '../../../assets/realestate-images/pattern-banner.jpg';
 
 export const FeaturesSection = styled.section`
+    background-color: black;
     background-image:url(${BackgroundImg});
     background-repeat:no-repeat;
     background-size:cover;
@@ -27,7 +28,7 @@ export const HeadingLayout = styled.div`
 `;
 
 export const SmallHeading = styled(SectionSubHeading)`
-    
+
 `;
 
 export const Heading = styled(SectionHeading)`

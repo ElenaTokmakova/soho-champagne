@@ -17,9 +17,16 @@ import GatsImg from "gatsby-image";
 class Properties extends Component{
 
     constructor(props) {
+        console.log("Properties props", props)
         super(props);
         this.next = this.next.bind(this);
         this.previous = this.previous.bind(this);
+    }
+
+    openDialogBox(src)
+    {
+        console.log("openLightBox", src)
+        this.props.openLightBoxOneImage(src);
     }
 
     next() {
@@ -56,7 +63,7 @@ class Properties extends Component{
                                 <CustomTabList>
                                     {
                                         this.props.PropertiesData.TabList.map((item,idx) => {
-                                            return <Tab>{item.Tab}</Tab>
+                                            return <Tab key={idx}>{item.Tab}</Tab>
                                         })
                                     }
                                 </CustomTabList>
@@ -64,12 +71,12 @@ class Properties extends Component{
 
                             {
                                 this.props.PropertiesData.TabList.map((itemTab,idxTab) => {
-                                return <TabPanel>
+                                return <TabPanel key={idxTab}>
                                         <SliderOuterWrapper>
                                             <Slider ref={c => (this.slider = c)} {...settings}>
                                             {
                                                 itemTab.TabPanel.map((itemPanel,idxPanel) => {
-                                                return <SliderWrapper>
+                                                return <SliderWrapper key={idxPanel}>
                                                     <PropertyLayout>
                                                         <DetailsLayout>
                                                             <TabHeading>{itemPanel.TabHeading}</TabHeading>
@@ -82,7 +89,7 @@ class Properties extends Component{
 
                                                             {
                                                                 itemPanel.SpecLayout.map((specItem,specIndex) => {
-                                                                    return <SpecLayout>
+                                                                    return <SpecLayout key={specIndex}>
                                                                         <SpecIcon src={specItem.SpecIcon} alt=""/>
                                                                         <SpecText>
                                                                         {specItem.SpecText}
@@ -93,7 +100,7 @@ class Properties extends Component{
                                                             </SpecWrapper>
                                                         </DetailsLayout>
                                                         <ImageLayout>
-                                                            <ImageHolder>
+                                                            <ImageHolder onClick={this.openDialogBox.bind(this,itemPanel.Img.childImageSharp.fluid.src)}>
                                                                 <GatsImg
                                                                     fluid={itemPanel.Img.childImageSharp.fluid}
                                                                     alt=""
@@ -125,7 +132,7 @@ class Properties extends Component{
 }
 
 
-export default () => (
+export default props => (
 <StaticQuery
     query={graphql`
         query{
@@ -160,7 +167,10 @@ export default () => (
     `}
 
     render={(data) => (
-        <Properties PropertiesData={data.realestatePageJson.Properties}/>
+        <Properties
+        PropertiesData={data.realestatePageJson.Properties}
+        {...props}
+        />
     )}
 />
 )

@@ -52,7 +52,7 @@ class Headermenu extends Component{
                         <ScrollSpy offset={-59} items={this.props.HeaderData.Items} currentClassName="is-current">
                             {
                                 this.props.HeaderData.MenuItems.map((menuItem, idx)=>{
-                                    return <li>
+                                    return <li key={idx}>
                                         <AnchorLink offset={55} href={menuItem.Href}>
                                             {menuItem.Menu}
                                         </AnchorLink>

@@ -13,6 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 
 class Gallery extends Component {
     constructor(props) {
+      console.log("Gallery props", props)
       super(props);
       this.next = this.next.bind(this);
       this.previous = this.previous.bind(this);
@@ -28,11 +29,11 @@ class Gallery extends Component {
     previous() {
         this.slider.slickPrev();
     }
-    
+
     render() {
         const settings = {
             arrows:false,
-            dots:false,
+            dots:true,
             infinite: true,
             speed: 500,
             slidesToShow: 3,
@@ -87,10 +88,10 @@ class Gallery extends Component {
                         <Slider ref={c => (this.slider = c)} {...settings}>
                         {
                             this.props.GalleryData.Slider.map((item,idx) => {
-                            return <SLiderWrapper>
+                            return <SLiderWrapper key={idx}>
                                     <GallerySliderLayout onClick={this.openDialogBox.bind(this,this.props.GalleryData,idx)}>
-                                        <GatsImg 
-                                            fluid={item.GallerySliderImg.childImageSharp.fluid} 
+                                        <GatsImg
+                                            fluid={item.GallerySliderImg.childImageSharp.fluid}
                                             className="GallerySliderImg"
                                             alt=""
                                         />
@@ -131,7 +132,7 @@ export default props => (
         }
     `}
     render={(data) => (
-        <Gallery 
+        <Gallery
         GalleryData={data.realestatePageJson.Gallery}
         {...props}
         />

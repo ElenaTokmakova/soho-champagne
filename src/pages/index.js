@@ -26,13 +26,13 @@ class RealestatePage extends Component{
             photoIndex: 0,
         }
         this.openLightBox = this.openLightBox.bind(this);
+        this.openLightBoxOneImage = this.openLightBoxOneImage.bind(this);
     }
 
     openLightBox(imageArray,idx)
     {
         const images = [];
-        for(const [index,value] of imageArray.Slider.entries()){
-            console.log(index);
+        for(const value of imageArray.Slider.values()){
             images.push(value.GallerySliderImg.childImageSharp.fluid.src);
         }
 
@@ -41,6 +41,19 @@ class RealestatePage extends Component{
                 isOpenLightBox: true,
                 lightBoxImages:images,
                 photoIndex:idx
+            }
+        );
+    }
+
+    openLightBoxOneImage(src)
+    {
+        const images = [];
+        images.push(src);
+        this.setState(
+            {
+                isOpenLightBox: true,
+                lightBoxImages:images,
+                photoIndex:0
             }
         );
     }
@@ -61,7 +74,7 @@ class RealestatePage extends Component{
                             <Stickymenu />
                             <Banner />
                             <About />
-                            <Properties />
+                            <Properties openLightBoxOneImage = {this.openLightBoxOneImage}/>
                             <Features />
                             <Amenities />
                             <Gallery openLightBox = {this.openLightBox} />

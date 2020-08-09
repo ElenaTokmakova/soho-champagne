@@ -4,13 +4,15 @@ import {
     Navbar
 } from 'react-bootstrap';
 
+const OPACITY = 0.6;
+
 export const NavbarCustom = styled(Navbar)`
-    background: #ffffff00 !important;
+    background:rgba(0,0,0,${OPACITY});
     padding:0px !important;
     position:absolute;
 
     @media ${device.laptop} {
-        background: ${props => props.isSticky?"#ffffff":"#ffffff00"} !important;
+        background: ${props => props.isSticky?"#ffffff":"rgba(0,0,0,0.5)"} !important;
         position:fixed;
         box-shadow: ${props => props.isSticky?"0px 1px 11px -1px #d6d6d6":"none"};
 
@@ -46,7 +48,7 @@ export const NavbarCustom = styled(Navbar)`
 
     //Anchor Link Styles
     a{
-        padding:0px 0px 10px;
+        padding:10px 0px 10px;
         color: #ffffff;
         line-height:1;
 
