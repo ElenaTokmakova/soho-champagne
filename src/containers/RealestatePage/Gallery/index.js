@@ -122,7 +122,7 @@ export default props => (
                         GallerySliderImg{
                             childImageSharp{
                                 fluid(quality: 100){
-                                ...GatsbyImageSharpFluid
+                                ...GatsbyImageSharpFluid_withWebp
                                 }
                             }
                         }

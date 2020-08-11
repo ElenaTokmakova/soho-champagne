@@ -19,7 +19,7 @@ const About = () => {
                        Img{
                         childImageSharp{
                             fluid(quality: 100){
-                            ...GatsbyImageSharpFluid
+                            ...GatsbyImageSharpFluid_withWebp
                             }
                         }
                        }

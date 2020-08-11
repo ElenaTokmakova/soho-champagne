@@ -78,42 +78,22 @@
             },
             {
                 "BannerImage":"../../assets/realestate-images/banner-2_slider.jpg",
-                "BannerHeading":"Remarkable value Unbeatable location",
-                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
-            },
-            {
-                "BannerImage":"../../assets/realestate-images/banner-3_slider.jpg",
                 "BannerHeading":"Limited edition premium floorplan with luxury modifications",
                 "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
             },
             {
-                "BannerImage":"../../assets/realestate-images/banner-4_slider.jpg",
+                "BannerImage":"../../assets/realestate-images/banner-3_slider.jpg",
                 "BannerHeading":"Floor-to-Ceiling & Wall-to-Wall Windows™",
                 "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
             },
             {
+                "BannerImage":"../../assets/realestate-images/banner-4_slider.jpg",
+                "BannerHeading":"Enjoy recreational activities on Dow's lake all year round",
+                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
+            },
+            {
                 "BannerImage":"../../assets/realestate-images/banner-5_slider.jpg",
-                "BannerHeading":"Upgraded bedroom with sliding glass doors",
-                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
-            },
-            {
-                "BannerImage":"../../assets/realestate-images/banner-6_slider.jpg",
-                "BannerHeading":"Fully equipped Dalton Brown gym",
-                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
-            },
-            {
-                "BannerImage":"../../assets/realestate-images/banner-7_slider.jpg",
-                "BannerHeading":"Recreational activities on Dow's lake are 5 minutes away",
-                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
-            },
-            {
-                "BannerImage":"../../assets/realestate-images/banner-8_slider.jpg",
                 "BannerHeading":"Breathtaking view of downtown Ottawa",
-                "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
-            },
-            {
-                "BannerImage":"../../assets/realestate-images/banner-9_slider.jpg",
-                "BannerHeading":"Live your story at Soho Champagne",
                 "BannerSubHeading":"Welcome to Soho Champagne Luxury Condominium, unit 1608"
             }
         ],
@@ -291,15 +271,6 @@
             },
             {
                 "GallerySliderImg":"../../assets/realestate-images/gallery-26.jpg"
-            },
-            {
-                "GallerySliderImg":"../../assets/realestate-images/gallery-27.jpg"
-            },
-            {
-                "GallerySliderImg":"../../assets/realestate-images/gallery-28.jpg"
-            },
-            {
-                "GallerySliderImg":"../../assets/realestate-images/gallery-29.jpg"
             }
         ]
     },
